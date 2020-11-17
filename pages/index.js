@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import Head from 'next/head'
+
+
 export default function Home() {
   return (
     <div class='container my-0 mx-auto'>
@@ -18,10 +20,9 @@ export default function Home() {
           </div>
         </header>
         <div class="h-screen">
-        <Image
-         class='object-cover h-screen w-full'
-         src="/www.jpg"
-        alt="Picture of the author"
+           <Image
+        class='object-cover h-screen w-full'
+        src="/www.jpg" 
         width={500}
         height={500}
       />
@@ -30,32 +31,18 @@ export default function Home() {
         <div><Link href="/posts/first-post"><a>this page!</a></Link></div>
    
         
-        <div className='md:flex bg-white rounded-lg p-24 '>
-        
-        <img
-          className='h-16 w-16 md:h-24 md:w-24 rounded-full mx-auto md:mx-0 md:mr-6'
-         
-        />
-        
-        <div className='text-center md:text-left'>
-          <h2 className='Sblack'>Jake Prins</h2>
-          <div className='text-purple-500'>JavaScript developer</div>
-          <div className='text-purple-500'>Twitter: @jakeprins_nl</div>
-        <div className='text-gray-600'>www.jakeprins.com</div>
-      </div>
-    </div>
+       
      
      
      
-     
-      <footer className={styles.footer}>
+      <footer >
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          <img src="/vercel.svg" alt="Vercel Logo"  />
         </a>
       </footer>
         

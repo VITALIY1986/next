@@ -24,7 +24,8 @@ export default function Home() {
          class='object-cover h-screen w-full'
          src="/www.jpg"
         alt="Picture of the author"
-       
+        width={500}
+        height={500}
       />
        
         </div>

@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
@@ -19,10 +20,13 @@ export default function Home() {
           </div>
         </header>
         <div class="h-screen">
-        <img
-          class='object-cover h-screen w-full'
-          src="/www.jpg" alt="Vercel Logo"
-        />
+        <Image
+         class='object-cover h-screen w-full'
+         src="/www.jpg"
+        alt="Picture of the author"
+       
+      />
+       
         </div>
         <div><Link href="/posts/first-post"><a>this page!</a></Link></div>
    

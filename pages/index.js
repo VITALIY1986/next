@@ -7,7 +7,7 @@ export default function Home() {
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
-        <script rel="dns-prefetch" src="//code.jivosite.com/widget/shgvzX8nsQ" async></script>
+       
       </Head>
 
       <main className={styles.main}>
